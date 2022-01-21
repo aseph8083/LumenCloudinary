@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.1.2',
-        'version' => '8.1.2.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'bcc4cbe38f9c53c3b2c680ea7800330e4ed50121',
         'name' => 'laravel/lumen',
         'dev' => true,
     ),
@@ -17,6 +17,15 @@
             'install_path' => __DIR__ . '/../brick/math',
             'aliases' => array(),
             'reference' => 'ca57d18f028f84f777b2168cd1911b0dee2343ae',
+            'dev_requirement' => false,
+        ),
+        'cloudinary/cloudinary_php' => array(
+            'pretty_version' => '1.20.0',
+            'version' => '1.20.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../cloudinary/cloudinary_php',
+            'aliases' => array(),
+            'reference' => '2a8e6ed5bc6cf024022c6fcc03b69e1ce92ccaab',
             'dev_requirement' => false,
         ),
         'cordoval/hamcrest-php' => array(
@@ -337,6 +346,15 @@
             'reference' => 'd1556d48872380623a03e99e3053903d7e3a2b33',
             'dev_requirement' => false,
         ),
+        'jrm2k6/cloudder' => array(
+            'pretty_version' => '0.7.0',
+            'version' => '0.7.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jrm2k6/cloudder',
+            'aliases' => array(),
+            'reference' => 'd54a7cd7c880705ae565dcc078a6f81320f21b05',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -344,12 +362,12 @@
             ),
         ),
         'laravel/lumen' => array(
-            'pretty_version' => 'v8.1.2',
-            'version' => '8.1.2.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'bcc4cbe38f9c53c3b2c680ea7800330e4ed50121',
             'dev_requirement' => false,
         ),
         'laravel/lumen-framework' => array(
@@ -601,8 +619,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
