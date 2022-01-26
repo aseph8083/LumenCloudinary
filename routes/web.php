@@ -18,3 +18,4 @@ $router->get('/', function () use ($router) {
 });
 
 $router->post('/upload', 'UploadController@upload');
+$router->post('/sendmail', 'EmailController@sendMail');
